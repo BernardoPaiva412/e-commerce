@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --primary-color: #078a85;
+    --secondary-color: #0b1d21;
+    --title: #edd5c5;
+    --contrast: #e81e4a;
+    --text-base: #151101;
+    --cta: #68baab;
+    --background: #f9f2e7;
+    --text-color: #edd5c5;
+    --gradient1: linear-gradient(135deg, #078a85, #170132);
+    --gradient2: linear-gradient(135deg, #68baab, #361542);
+    --font-base: 'Roboto', sans-serif;
+    --font-title: 'Oswald', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-base);
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    color: var(--text-color);
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--font-title);
+}
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
