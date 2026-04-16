@@ -7,7 +7,7 @@
     --contrast: #e81e4a;
     --text-base: #151101;
     --cta: #68baab;
-    --background: #f9f2e7;
+    --background: #000;
     --text-color: #edd5c5;
     --gradient1: linear-gradient(135deg, #078a85, #170132);
     --gradient2: linear-gradient(135deg, #68baab, #361542);
@@ -26,6 +26,7 @@
 
 body {
     color: var(--text-color);
+    background-color: var(--background);
     overflow-x: hidden;
 }
 
