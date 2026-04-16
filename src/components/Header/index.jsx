@@ -1,18 +1,28 @@
-import './Header.css'
+import "./Header.css";
 
 export default function Header() {
-    return (
-        <header>
-            <div className="anuncio">
-                <p>Tudo em 10x sem juros!</p>
-            </div>
-            <div className="header">
-                <picture>
-                    <a href="#">
-                        <img src="./icon.png" />
-                    </a>
-                </picture>
-            </div>
-        </header>
-    )
+  return (
+    <header>
+      <div className="anuncio">
+        <div className="anuncio-conteudo">
+          <p>Tudo em 10x sem juros!</p>
+        </div>
+      </div>
+
+      <div className="header">
+        <picture>
+          <a href="#">
+            <img src="./icon.png" />
+          </a>
+        </picture>
+
+        <nav>
+          <a href="#">Home</a>
+          <a href="#">Produtos</a>
+          <a href="#">Lançamentos</a>
+          <a href="#">Contato</a>
+        </nav>
+      </div>
+    </header>
+  );
 }
